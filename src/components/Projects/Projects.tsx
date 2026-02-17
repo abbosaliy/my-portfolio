@@ -13,6 +13,52 @@ function Projects() {
           </p>
         </div>
         <div className=" grid md:grid-cols-2  lg:grid-cols-3 gap-10 items-stretch">
+          <div className="flex flex-col items-start gap-5 h-full">
+            <img
+              className="w-full aspect-video  object-center rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
+              src="/images/flowdex.png"
+              alt="projek-2"
+            />
+            <div className="flex flex-col gap-5 h-full">
+              <h2 className="text-4xl font-semibold">Flowdex</h2>
+              <p className="text-slate-400 font-mono text-lg">
+                Flowdex ist ein eigenständig entwickeltes Webprojekt zur
+                Simulation eines kollaborativen Projektmanagement-Workflows
+                zwischen Nutzern und Managern. Ziel war es, moderne
+                Frontend-Technologien in einer realitätsnahen Anwendung
+                strukturiert umzusetzen.
+              </p>
+              <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
+                HTML Vite TypeScript React TailwindCSS Supabase
+              </h2>
+              <div className="flex items-center gap-5">
+                <div className="relative group">
+                  <a
+                    target="_blank"
+                    href="https://github.com/abbosaliy/Flowdex.git"
+                  >
+                    <FaGithub className="w-15 h-15  p-4 bg-slate-800 rounded-full hover:text-blue-500" />
+                  </a>
+                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg  text-black bg-white px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+                    GitHub
+                  </div>
+                </div>
+
+                <div className="relative group">
+                  <a
+                    target="_blank"
+                    href="https://flowdeex.netlify.app"
+                  >
+                    <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
+                  </a>
+
+                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg text-black bg-white px-6 py-2 rounded opacity-0 whitespace-nowrap  group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+                    Live project
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className=" flex flex-col items-start gap-5 h-full">
             <img
               className="w-full aspect-video  object-center rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
@@ -233,52 +279,6 @@ function Projects() {
                   <a
                     target="_blank"
                     href="https://witze-app.abbosbek-anvarjonov.com"
-                  >
-                    <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
-                  </a>
-
-                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg text-black bg-white px-6 py-2 rounded opacity-0 whitespace-nowrap  group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-                    Live project
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" flex flex-col items-start gap-5 h-full">
-            <img
-              className="w-full aspect-video object-center rounded-md shadow-lg transition-transform duration-300 hover:scale-105 "
-              src="/images/nutzer.png"
-              alt="nutzerverwaltung"
-            />
-            <div className="flex flex-col gap-5">
-              <h2 className="text-4xl font-semibold">Nutzerverwaltung</h2>
-              <p className="text-slate-400 font-mono text-lg">
-                Frontend-Anwendung zur Verwaltung von Nutzerdaten mit
-                vollständiger CRUD- Funktionalität: Nutzer können erstellt,
-                angezeigt, bearbeitet und gelöscht werden. Fokus auf saubere
-                Komponentenstruktur, Formularhandling und State-Management mit
-                React.
-              </p>
-              <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
-                TypeScript SCSS React
-              </h2>
-              <div className="flex items-center gap-5">
-                <div className="relative group">
-                  <a
-                    target="_blank"
-                    href="https://github.com/abbosaliy/Nutzerverwaltung.git"
-                  >
-                    <FaGithub className="w-15 h-15  p-4 bg-slate-800 rounded-full hover:text-blue-500" />
-                  </a>
-                  <div className="absolute -top-12 left-1/2 -translate-x-1/2 text-lg  text-black bg-white px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-                    GitHub
-                  </div>
-                </div>
-
-                <div className="relative group">
-                  <a
-                    target="_blank"
-                    href="https://abbosaliy.github.io/Nutzerverwaltung/"
                   >
                     <GoArrowUpRight className="w-15 h-15 p-2 bg-slate-800 rounded-full hover:text-blue-500" />
                   </a>
