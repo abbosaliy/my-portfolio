@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="flex items-center flex-col gap-3">
       <Header />
-      <main className="flex items-center flex-col gap-20">
+      <main className="flex items-center flex-col">
         <section
           className="container"
           id="hero"

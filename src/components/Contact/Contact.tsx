@@ -25,7 +25,7 @@ function Contact() {
         (error) => {
           console.log('FAILED...', error.text);
           alert('Fehler beim Senden der Nachricht. Bitte erneuet versuchen.');
-        }
+        },
       );
   };
 
@@ -40,7 +40,7 @@ function Contact() {
               </div>
               <div className="flex flex-col">
                 <p className="text-slate-400 text-xl">Telefon</p>
-                <p className="text-xl">(+49)1734759122</p>
+                <p className="text-xl">(+49) 173 475 91 22</p>
               </div>
             </div>
           </div>

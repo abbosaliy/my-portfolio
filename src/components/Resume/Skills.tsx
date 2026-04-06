@@ -9,7 +9,13 @@ import {
   FaSass,
 } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
-import { SiMui, SiShadcnui, SiTailwindcss, SiVite } from 'react-icons/si';
+import {
+  SiMui,
+  SiShadcnui,
+  SiSupabase,
+  SiTailwindcss,
+  SiVite,
+} from 'react-icons/si';
 
 function Skills() {
   return (
@@ -106,6 +112,12 @@ function Skills() {
             Shadcnui
           </div>
           <SiShadcnui className="w-20 h-20"></SiShadcnui>
+        </div>
+        <div className="relative group flex items-center justify-center rounded-md hover:text-blue-500 duration-300 bg-slate-800  col-span-1 h-40">
+          <div className="absolute bottom-full  mb-2 text-black text-xl px-6 py-2 bg-white rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            Supabase
+          </div>
+          <SiSupabase className="w-20 h-20"></SiSupabase>
         </div>
       </div>
     </div>

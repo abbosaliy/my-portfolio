@@ -4,7 +4,7 @@ import { GoArrowUpRight } from 'react-icons/go';
 function Projects() {
   return (
     <div className="container">
-      <div className="flex flex-col gap-10 pt-10">
+      <div className="flex flex-col gap-10 pt-10 pb-30">
         <div className="flex flex-col items-center justify-center gap-5">
           <h2 className="font-semibold text-4xl">Meine Projekte</h2>
           <p className="text-slate-400 font-mono text-lg ">
@@ -22,11 +22,14 @@ function Projects() {
             <div className="flex flex-col gap-5 h-full">
               <h2 className="text-4xl font-semibold">Flowdex</h2>
               <p className="text-slate-400 font-mono text-lg">
-                Flowdex ist ein eigenständig entwickeltes Webprojekt zur
-                Simulation eines kollaborativen Projektmanagement-Workflows
-                zwischen Nutzern und Managern. Ziel war es, moderne
-                Frontend-Technologien in einer realitätsnahen Anwendung
-                strukturiert umzusetzen.
+                Flowdex ist ein eigenständig entwickeltes SaaS-ähnliches
+                Projektmanagement-Tool zur Abbildung kollaborativer Workflows.
+                Entwickelt mit React, TypeScript und Tailwind CSS, verfügt die
+                Anwendung über eine skalierbare Frontend-Architektur,
+                rollenbasierte Authentifizierung mit Supabase sowie eine
+                strukturierte State-Logik. Der Fokus lag auf Performance,
+                Wiederverwendbarkeit von Komponenten und einer intuitiven User
+                Experience.
               </p>
               <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
                 HTML Vite TypeScript React TailwindCSS Supabase
@@ -68,12 +71,14 @@ function Projects() {
             <div className="flex flex-col gap-5 h-full">
               <h2 className="text-4xl font-semibold">CargoSync</h2>
               <p className="text-slate-400 font-mono text-lg">
-                CargoSync ist eine moderne Logistikplattform, die Fahrern und
-                Disponenten hilft, Lieferungen effizient zu verwalten. Die
-                Anwendung wurde im „mobile-first“-Ansatz entwickelt und für alle
-                Gerätetypen optimiert. Benutzer können Aufträge in Echtzeit
-                verfolgen, den Status ihrer Lieferungen aktualisieren und
-                tägliche Routen übersichtlich organisieren – alles an einem Ort.
+                CargoSync ist eine eigenständig entwickelte, SaaS-ähnliche
+                Logistikplattform zur Echtzeit-Verwaltung von Lieferprozessen.
+                Entwickelt mit React und TypeScript, bietet die Anwendung
+                Live-Status-Tracking, Echtzeit-Datenaktualisierung und eine
+                skalierbare Frontend-Architektur. Die Integration von Supabase
+                ermöglicht eine effiziente Datenverarbeitung und
+                API-Kommunikation. Der Fokus lag auf performanten Datenflüssen,
+                modularen UI-Komponenten und einer intuitiven User Experience.
               </p>
               <h2 className="text-blue-500 text-lg font-bold border-b-3 border-b-white/30">
                 HTML Vite TypeScript React TailwindCSS Supabase

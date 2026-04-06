@@ -23,13 +23,10 @@ function Hero() {
             </span>
           </h1>
           <p className="max-w-[500px] pt-6 text-lg xl:text-xl pb-8 text-slate-400 font-mono">
-            Ich bin ein leidenschaftlicher Frontend-Entwickler mit Fokus auf
-            moderne Webtechnologien wie React, TypeScript, Tailwind CSS.
+            Ich entwickle skalierbare Webanwendungen mit React und TypeScript.
             <br />
-            Ich entwickle benutzerfreundliche, performante und visuell
-            ansprechende Webanwendungen. Mein Ziel ist es, intuitive
-            Benutzeroberflächen zu gestalten und stetig neue Technologien zu
-            erlernen.
+            Eigene SaaS-Projekte, Fokus auf Performance, saubere Architektur und
+            UX.
           </p>
           <div className="flex flex-col  items-center gap-10 xl:flex-row">
             <HashLink

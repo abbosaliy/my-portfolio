@@ -4,16 +4,13 @@ function AboutMe() {
       <div className="flex flex-col items-center xl:items-start text-center gap-4 ">
         <h1 className="font-semibold text-4xl ">Über mich</h1>
         <p className="text-slate-400 font-mono text-xl xl:text-start ">
-          Engagierter Quereinsteiger mit intensiver Weiterbildung in moderner
-          Webentwicklung über DevKarriere. Im Rahmen des Programms habe ich über
-          zehn praxisnahe Projekte. u.a mit JavaScript, React, TailwindCSS und
-          TypeScript eigenständig umgesetzt. Ich bringe eine hohe
-          Eigenmotivation mit, neue Technologien zu lernen und Herausforderungen
-          strukturiert zu lösen. Mein beruflicher Hintergrund außerhalb der IT
-          hat meine Kommunikationsstärke, Zuverlässigkeit und den Blick für
-          effiziente Abläufe geprägt. Mein Ziel ist es nun, meine Fähigkeiten in
-          einem professionellen Umfeld einzubringen und mich kontinuierlich
-          weiterzuentwickeln
+          <p className="text-slate-400 font-mono text-xl xl:text-start">
+            Frontend Developer spezialisiert auf React und TypeScript. Erfahrung
+            in der Entwicklung moderner Webanwendungen und eigener
+            SaaS-Projekte. Fokus auf skalierbare Architektur, Performance und
+            benutzerfreundliche Interfaces. Sauberer Code, klare Struktur und
+            kontinuierliches Lernen stehen für mich im Mittelpunkt.
+          </p>
         </p>
         <ul className="grid grid-cols-1 items-center justify-center gap-10  ">
           <li className="flex items-center justify-center xl:justify-start gap-4">
